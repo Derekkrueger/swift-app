@@ -6,39 +6,35 @@
 //  Copyright © 2018 Derek. All rights reserved.
 //
 
+
+
+
+//first page must have birthday
+//name and email
+// second page will be address (state is important)
+// thirdpage will be sign in
+
+
+
+
 import UIKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var hello: UILabel!
     
-    //var for first page
-    
-    var tapCount = 0
-    var tapNo = 0
-    
-    @IBAction func button1(_ sender: Any) {
-        tapCount = tapCount + 1
-        print (tapCount)
-        
-        if tapCount >= 1{
-            hello.text = "continue"
-        }
-    }
-    
-    
-    @IBAction func rejectButton(_ sender: Any) {
-        tapNo = tapNo + 1
-        print (tapNo)
-        
-        if tapNo >= 1{
-            hello.text = "Close "
-        }
-    }
   
     
-   
+    @IBAction func button1(_ sender: Any) {
+        print (text1g.text!)
+    }
     
+    
+  
+    
+    @IBOutlet weak var text1g: UITextField!
+    
+    @IBOutlet weak var text2gain: UITextField!
     
     
     override func viewDidLoad() {
