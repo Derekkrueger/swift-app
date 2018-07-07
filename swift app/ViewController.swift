@@ -13,6 +13,8 @@
 //name and email
 // second page will be address (state is important)
 // thirdpage will be sign in
+//items + cart
+//checkout  delivery/shipping/instore-pick-up
 
 
 
