@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         print (tapNo)
         
         if tapNo >= 1{
-            hello.text = "Close app"
+            hello.text = "Close "
         }
     }
   
